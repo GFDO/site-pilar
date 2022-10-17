@@ -1,0 +1,32 @@
+body {
+	background: #FFEFD5;
+	
+}
+.menu ul li{
+	display:  inline-block;
+
+}
+.titulo{
+	text-align: center;
+}
+
+.trabalho{
+	background: #F4A460;
+	display: inline-block;
+	margin-left: 60%;
+}
+h2 {
+	text-align: center
+}
+
+.meio{
+	background: #F4A460;
+	padding: 40px;
+    display: inline-block;
+	vertical-align: top;
+	width: 35%;
+	margin-right: 15%;
+}
+.imagem1{
+	width: 120%;
+}
