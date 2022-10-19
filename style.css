@@ -1,10 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap');
+
 body {
 	background: #FFEFD5;
+	font-family: Roboto, Arial, Helvetica;
+}
+header {
+	position: relative;
+	display: flex;
+}
+.logopilar{
+	width: 20%;
+	margin-left: 10%;
+}
+nav{
+	position: absolute;
+	top: 40%;
+	left: 80%;
+}
+nav ul{
+	list-style: none;
 	
 }
-.menu ul li{
-	display:  inline-block;
+nav li{
+	display: inline;
 
+}
+nav li a{
+	color: #F4A460;
+	text-decoration: none;
+	border: 3px solid #F4A460;
+	line-height: 30px;
 }
 .titulo{
 	text-align: center;
@@ -14,19 +40,73 @@ body {
 	background: #F4A460;
 	display: inline-block;
 	margin-left: 60%;
+
+	
 }
 h2 {
-	text-align: center
+	line-height: 10px;
+	font-size: 0.75cm;
+	text-align: center;
+	color: #8B4513;
+
 }
 
 .meio{
+
 	background: #F4A460;
-	padding: 40px;
-    display: inline-block;
-	vertical-align: top;
+	padding: 50px;
 	width: 35%;
-	margin-right: 15%;
+	
+
 }
 .imagem1{
 	width: 120%;
+
+}
+h3 {
+	font-size: 0.75cm;
+	padding: 50px;
+	text-align: center;
+	color: #8B4513;
+
+}
+.imagenscasas{
+	margin-left: 10%;
+	margin-right: 10%;
+	display: flex;
+	border: 10px solid #F4A460;
+}
+.imgcasa{
+	width: 50%;
+}
+.imgcasa2{
+	width: 50%;
+}
+.projetos{
+	display: flex;
+	border: 10px solid #F4A460;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.projetocasa1{
+	width: 50%;
+}
+.projetocasa2{
+	width: 50%;
+}
+.fundo{
+	background: #8B4513;
+	color: #FFEFD5;
+
+}
+h4 {
+	font-size: 0.75cm;
+	line-height: 30px;
+	margin-left: 3%;
+}
+.contato{
+	list-style: none;
+	line-height: 30px;
+	margin-left: 3%;
+
 }
